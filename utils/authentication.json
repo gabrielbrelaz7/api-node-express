@@ -1,0 +1,137 @@
+{
+    "source": "mockoon:1.12.0",
+    "data": [
+        {
+            "type": "environment",
+            "item": {
+                "uuid": "",
+                "lastMigration": 13,
+                "name": "Abbvie API",
+                "endpointPrefix": "",
+                "latency": 0,
+                "port": 3000,
+                "routes": [
+  
+                  {
+                        "uuid": "",
+                        "documentation": "Authenticate user",
+                        "method": "post",
+                        "endpoint": "api/authentication",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "{\n    \"_links\": {\n        \"userProfile\": {\n            \"href\": \"https://developer.infuse.myabsorb.com/my-profile\"\n        },\n        \"basicToken\": {\n            \"href\": \"https://developer.infuse.myabsorb.com/authentication/basic-authentication-tokens\"\n        }\n    },\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjRlMWRmMTlhLWI3YTctNDUwMC05NWRhLWIyNzkzMmY1NmE3NCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiI0ZTFkZjE5YS1iN2E3LTQ1MDAtOTVkYS1iMjc5MzJmNTZhNzQiLCJ1c2VySWRlbnRpdHkiOiJ7XCJJc1N5c3RlbUlkZW50aXR5XCI6ZmFsc2UsXCJVc2VySWRcIjpcIjRlMWRmMTlhLWI3YTctNDUwMC05NWRhLWIyNzkzMmY1NmE3NFwiLFwiTmFtZVwiOlwiNGUxZGYxOWEtYjdhNy00NTAwLTk1ZGEtYjI3OTMyZjU2YTc0XCIsXCJBYnNvcmJBdXRoZW50aWNhdGlvblR5cGVcIjo2LFwiQXV0aGVudGljYXRpb25UeXBlXCI6XCJUb2tlblwiLFwiSXNBdXRoZW50aWNhdGVkXCI6dHJ1ZSxcIkRlcGFydG1lbnRJZFwiOm51bGx9IiwiY2xpZW50UG9ydGFsSWRlbnRpdHkiOiJ7XCJSb3V0ZUlkXCI6XCJlNmRhNDk0Yi0xMDM3LTRhOWQtYTNmNi00YTczNjM5NmM5OWRcIixcIkNsaWVudElkXCI6XCIxYTFhMjExMS05ZGVkLTQ5NjgtYWQ3Yy1jNmRkMTA2ZmI0OTdcIixcIkRlcGFydG1lbnRJZFwiOlwiYzZiZTcyNTUtOWE1ZC00YjllLWEzZTItNDYzMjUxZjAyZGJiXCIsXCJJc0RlcGFydG1lbnRTcGVjaWZpZWRCeVJvdXRlXCI6ZmFsc2V9IiwiYWNjZXNzTW9kZSI6IlwiQVBJXCIiLCJzY29wZSI6IltcIkxlYXJuZXJcIl0iLCJuYmYiOjE2MTU5MDg2MDMsImV4cCI6MTYxNTkyMzAwMywiaWF0IjoxNjE1OTA4NjAzLCJpc3MiOiJodHRwczovL215YWJzb3JiLmNvbS8iLCJhdWQiOiJodHRwczovL215YWJzb3JiLmNvbS8ifQ.YGzzJIiUZEommit9w5TBDopZLA9ABHBsQItXMKXtKKU\",\n    \"scope\": [\n        \"Learner\"\n    ]\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "Success",
+                                "headers": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [
+                                    {
+                                        "target": "body",
+                                        "modifier": "username",
+                                        "value": "username",
+                                        "isRegex": false
+                                    },
+                                    {
+                                        "target": "body",
+                                        "modifier": "password",
+                                        "value": "password",
+                                        "isRegex": false
+                                    },
+                                    {
+                                        "target": "body",
+                                        "modifier": "scope",
+                                        "value": "Learner",
+                                        "isRegex": false
+                                    },
+                                    {
+                                        "target": "body",
+                                        "modifier": "accessMode",
+                                        "value": "API",
+                                        "isRegex": false
+                                    }
+                                ],
+                                "rulesOperator": "AND",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n    \"validations\": {\n        \"0\": [\n            {\n                \"message\": \"The Username field is required.\"\n            }\n        ]\n    },\n    \"code\": 422.0,\n    \"message\": \"Submitted resource cannot be processed due to semantic errors\",\n    \"term\": \"ErrorGeneric\",\n    \"_meta\": {\n        \"status\": 422\n    }\n}",
+                                "latency": 0,
+                                "statusCode": 422,
+                                "label": "Error",
+                                "headers": [
+                                    {
+                                        "key": "Content-Type",
+                                        "value": "application/json"
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [
+                                    {
+                                        "target": "body",
+                                        "modifier": "accessMode",
+                                        "value": "",
+                                        "isRegex": false
+                                    },
+                                    {
+                                        "target": "body",
+                                        "modifier": "scope",
+                                        "value": "",
+                                        "isRegex": false
+                                    },
+                                    {
+                                        "target": "body",
+                                        "modifier": "password",
+                                        "value": "",
+                                        "isRegex": false
+                                    },
+                                    {
+                                        "target": "body",
+                                        "modifier": "username",
+                                        "value": "",
+                                        "isRegex": false
+                                    }
+                                ],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    }
+                ],
+                "proxyMode": false,
+                "proxyHost": "",
+                "https": false,
+                "cors": true,
+                "headers": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "proxyReqHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "proxyResHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            }
+        }
+    ]
+}

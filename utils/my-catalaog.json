@@ -1,0 +1,360 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://developer.infuse.myabsorb.com/my-catalog?_sort=Name&_limit=20&_offset=0"
+        },
+        "courses": [
+            {
+                "href": "https://developer.infuse.myabsorb.com/my-catalog/ae09b7b7-00c5-402d-8c90-94e21257bf97"
+            },
+            {
+                "href": "https://developer.infuse.myabsorb.com/my-catalog/d500873c-a642-4737-b9d0-8983d15294cb"
+            },
+            {
+                "href": "https://developer.infuse.myabsorb.com/my-catalog/a12a289c-33f5-42ab-890f-c80b72a183c3"
+            },
+            {
+                "href": "https://developer.infuse.myabsorb.com/my-catalog/f99d7c4e-a75f-4232-8af9-8f65b2589656"
+            },
+            {
+                "href": "https://developer.infuse.myabsorb.com/my-catalog/e1463a6d-41b4-45c4-bdd6-cf0f6fe311f4"
+            },
+            {
+                "href": "https://developer.infuse.myabsorb.com/my-catalog/c4a49204-9421-4adf-bf74-88295a65da68"
+            },
+            {
+                "href": "https://developer.infuse.myabsorb.com/my-catalog/ef65ae65-378a-4aef-b8ae-1a11c699667c"
+            }
+        ]
+    },
+    "totalItems": 7,
+    "returnedItems": 7,
+    "limit": 20,
+    "offset": 0,
+    "_embedded": {
+        "courses": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https://developer.infuse.myabsorb.com/my-catalog/ae09b7b7-00c5-402d-8c90-94e21257bf97"
+                    },
+                    "courseDetails": {
+                        "href": "https://developer.infuse.myabsorb.com/online-courses/ae09b7b7-00c5-402d-8c90-94e21257bf97"
+                    },
+                    "updateCoursePin": {
+                        "href": "https://developer.infuse.myabsorb.com/my-course-pins/ae09b7b7-00c5-402d-8c90-94e21257bf97"
+                    }
+                },
+                "id": "ae09b7b7-00c5-402d-8c90-94e21257bf97",
+                "courseType": "OnlineCourse",
+                "name": "aaLMS365",
+                "description": "<p>Introduction to LMS365\n</p>\n<p>teach abbvie course test dog cat snake frog<br>\n</p>\n<p><br>\n</p>",
+                "accessDate": null,
+                "isPinned": false,
+                "enrolled": true,
+                "enrolledDate": "2021-01-28T20:40:51.51",
+                "enrollmentStatus": "InProgress",
+                "progress": 14.28,
+                "imageUrl": "https://d2lx4n4y6bz4m6.cloudfront.net/1a1a2111-9ded-4968-ad7c-c6dd106fb497/posts-Teste.jpg",
+                "price": null,
+                "currencyAbbreviation": null,
+                "categoryId": null,
+                "creationDate": "2021-01-28T20:40:20.983",
+                "tags": [],
+                "dueDate": null,
+                "expiryDate": null,
+                "curriculumEnrollmentExpiryDate": null,
+                "isPartOfCurriculumEnrollment": false,
+                "isMandatory": false,
+                "certificateExpiryDate": null,
+                "isCourseRatingEnabled": false,
+                "rating": null,
+                "totalRatings": null,
+                "myRating": null,
+                "recentActivityDate": "2021-03-04T20:18:26.3866667",
+                "partnerType": null,
+                "consentToDownload": false,
+                "enableForMobileApp": false,
+                "discriminator": "CatalogOnlineCourseResource"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "https://developer.infuse.myabsorb.com/my-catalog/d500873c-a642-4737-b9d0-8983d15294cb"
+                    },
+                    "courseDetails": {
+                        "href": "https://developer.infuse.myabsorb.com/online-courses/d500873c-a642-4737-b9d0-8983d15294cb"
+                    },
+                    "updateCoursePin": {
+                        "href": "https://developer.infuse.myabsorb.com/my-course-pins/d500873c-a642-4737-b9d0-8983d15294cb"
+                    }
+                },
+                "id": "d500873c-a642-4737-b9d0-8983d15294cb",
+                "courseType": "OnlineCourse",
+                "name": "Event Test",
+                "description": null,
+                "accessDate": "2021-02-15T00:00:00",
+                "isPinned": false,
+                "enrolled": true,
+                "enrolledDate": "2021-02-15T13:04:18.0133333",
+                "enrollmentStatus": "NotStarted",
+                "progress": 0.00,
+                "imageUrl": "https://d2lx4n4y6bz4m6.cloudfront.net/1a1a2111-9ded-4968-ad7c-c6dd106fb497/posts-Teste.jpg",
+                "price": null,
+                "currencyAbbreviation": null,
+                "categoryId": null,
+                "creationDate": "2021-02-15T12:15:32.09",
+                "tags": [],
+                "dueDate": null,
+                "expiryDate": null,
+                "curriculumEnrollmentExpiryDate": null,
+                "isPartOfCurriculumEnrollment": false,
+                "isMandatory": false,
+                "certificateExpiryDate": null,
+                "isCourseRatingEnabled": false,
+                "rating": null,
+                "totalRatings": null,
+                "myRating": null,
+                "recentActivityDate": "2021-02-15T13:07:32.9633333",
+                "partnerType": null,
+                "consentToDownload": false,
+                "enableForMobileApp": false,
+                "discriminator": "CatalogOnlineCourseResource"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "https://developer.infuse.myabsorb.com/my-catalog/a12a289c-33f5-42ab-890f-c80b72a183c3"
+                    },
+                    "courseDetails": {
+                        "href": "https://developer.infuse.myabsorb.com/instructor-led-courses/a12a289c-33f5-42ab-890f-c80b72a183c3"
+                    },
+                    "updateCoursePin": {
+                        "href": "https://developer.infuse.myabsorb.com/my-course-pins/a12a289c-33f5-42ab-890f-c80b72a183c3"
+                    }
+                },
+                "id": "a12a289c-33f5-42ab-890f-c80b72a183c3",
+                "courseType": "InstructorLedCourse",
+                "name": "event test with two sessions",
+                "description": null,
+                "accessDate": null,
+                "isPinned": false,
+                "enrolled": true,
+                "enrolledDate": "2021-02-18T17:33:53.2",
+                "enrollmentStatus": "NotStarted",
+                "progress": 0.00,
+                "imageUrl": "https://d2lx4n4y6bz4m6.cloudfront.net/1a1a2111-9ded-4968-ad7c-c6dd106fb497/posts-Teste.jpg",
+                "price": null,
+                "currencyAbbreviation": null,
+                "categoryId": null,
+                "creationDate": "2021-02-16T11:47:57.223",
+                "tags": [
+                    {
+                        "id": "bd4876c8-232b-405c-abca-38fd6ce7ede9",
+                        "name": "teste:UK-JUV-1950039 Date of preparation October 2019"
+                    }
+                ],
+                "sessionCount": 0,
+                "selectedSession": {
+                    "name": "session 1",
+                    "description": "<p>session 1 description\n</p>",
+                    "instructors": [],
+                    "startDate": "2021-02-19T12:00:00",
+                    "endDate": "2021-02-19T13:00:00",
+                    "venueName": "Youtube",
+                    "venuePhoneNumber": null,
+                    "venueUrl": "https://www.youtube.com/watch?v=GaQRgiDiBXU",
+                    "classCount": 1,
+                    "timeZoneId": "EST",
+                    "recurrenceRule": null
+                },
+                "isCourseRatingEnabled": false,
+                "isMandatory": false,
+                "certificateExpiryDate": null,
+                "rating": null,
+                "totalRatings": null,
+                "myRating": null,
+                "recentActivityDate": "2021-02-18T17:35:38.3866667",
+                "requireSessionOnPurchase": false,
+                "isPartOfCurriculumEnrollment": false,
+                "discriminator": "CatalogInstructorLedCourseResource"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "https://developer.infuse.myabsorb.com/my-catalog/f99d7c4e-a75f-4232-8af9-8f65b2589656"
+                    },
+                    "courseDetails": {
+                        "href": "https://developer.infuse.myabsorb.com/online-courses/f99d7c4e-a75f-4232-8af9-8f65b2589656"
+                    },
+                    "updateCoursePin": {
+                        "href": "https://developer.infuse.myabsorb.com/my-course-pins/f99d7c4e-a75f-4232-8af9-8f65b2589656"
+                    }
+                },
+                "id": "f99d7c4e-a75f-4232-8af9-8f65b2589656",
+                "courseType": "OnlineCourse",
+                "name": "Golf Explained - CP Single SCO",
+                "description": null,
+                "accessDate": null,
+                "isPinned": false,
+                "enrolled": true,
+                "enrolledDate": "2021-01-18T18:32:20.54",
+                "enrollmentStatus": "InProgress",
+                "progress": 0.00,
+                "imageUrl": null,
+                "price": null,
+                "currencyAbbreviation": null,
+                "categoryId": null,
+                "creationDate": "2021-01-18T18:31:19.653",
+                "tags": [],
+                "dueDate": null,
+                "expiryDate": null,
+                "curriculumEnrollmentExpiryDate": null,
+                "isPartOfCurriculumEnrollment": false,
+                "isMandatory": false,
+                "certificateExpiryDate": null,
+                "isCourseRatingEnabled": false,
+                "rating": null,
+                "totalRatings": null,
+                "myRating": null,
+                "recentActivityDate": "2021-02-04T13:32:55.4133333",
+                "partnerType": null,
+                "consentToDownload": false,
+                "enableForMobileApp": false,
+                "discriminator": "CatalogOnlineCourseResource"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "https://developer.infuse.myabsorb.com/my-catalog/e1463a6d-41b4-45c4-bdd6-cf0f6fe311f4"
+                    },
+                    "courseDetails": {
+                        "href": "https://developer.infuse.myabsorb.com/online-courses/e1463a6d-41b4-45c4-bdd6-cf0f6fe311f4"
+                    },
+                    "updateCoursePin": {
+                        "href": "https://developer.infuse.myabsorb.com/my-course-pins/e1463a6d-41b4-45c4-bdd6-cf0f6fe311f4"
+                    }
+                },
+                "id": "e1463a6d-41b4-45c4-bdd6-cf0f6fe311f4",
+                "courseType": "OnlineCourse",
+                "name": "Golf Explained - Sequencing Forced Order",
+                "description": null,
+                "accessDate": null,
+                "isPinned": false,
+                "enrolled": true,
+                "enrolledDate": "2021-01-18T18:44:38.72",
+                "enrollmentStatus": "InProgress",
+                "progress": 0.00,
+                "imageUrl": null,
+                "price": null,
+                "currencyAbbreviation": null,
+                "categoryId": null,
+                "creationDate": "2021-01-18T18:37:48.657",
+                "tags": [],
+                "dueDate": null,
+                "expiryDate": null,
+                "curriculumEnrollmentExpiryDate": null,
+                "isPartOfCurriculumEnrollment": false,
+                "isMandatory": false,
+                "certificateExpiryDate": null,
+                "isCourseRatingEnabled": false,
+                "rating": null,
+                "totalRatings": null,
+                "myRating": null,
+                "recentActivityDate": "2021-02-04T13:24:52.89",
+                "partnerType": null,
+                "consentToDownload": false,
+                "enableForMobileApp": false,
+                "discriminator": "CatalogOnlineCourseResource"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "https://developer.infuse.myabsorb.com/my-catalog/c4a49204-9421-4adf-bf74-88295a65da68"
+                    },
+                    "courseDetails": {
+                        "href": "https://developer.infuse.myabsorb.com/online-courses/c4a49204-9421-4adf-bf74-88295a65da68"
+                    },
+                    "updateCoursePin": {
+                        "href": "https://developer.infuse.myabsorb.com/my-course-pins/c4a49204-9421-4adf-bf74-88295a65da68"
+                    }
+                },
+                "id": "c4a49204-9421-4adf-bf74-88295a65da68",
+                "courseType": "OnlineCourse",
+                "name": "Golf Explained - Sequencing Random Test",
+                "description": null,
+                "accessDate": null,
+                "isPinned": false,
+                "enrolled": true,
+                "enrolledDate": "2021-01-18T18:44:38.72",
+                "enrollmentStatus": "InProgress",
+                "progress": 0.00,
+                "imageUrl": null,
+                "price": null,
+                "currencyAbbreviation": null,
+                "categoryId": null,
+                "creationDate": "2021-01-18T18:38:55.293",
+                "tags": [],
+                "dueDate": null,
+                "expiryDate": null,
+                "curriculumEnrollmentExpiryDate": null,
+                "isPartOfCurriculumEnrollment": false,
+                "isMandatory": false,
+                "certificateExpiryDate": null,
+                "isCourseRatingEnabled": false,
+                "rating": null,
+                "totalRatings": null,
+                "myRating": null,
+                "recentActivityDate": "2021-03-04T19:37:56.1966667",
+                "partnerType": null,
+                "consentToDownload": false,
+                "enableForMobileApp": false,
+                "discriminator": "CatalogOnlineCourseResource"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "https://developer.infuse.myabsorb.com/my-catalog/ef65ae65-378a-4aef-b8ae-1a11c699667c"
+                    },
+                    "courseDetails": {
+                        "href": "https://developer.infuse.myabsorb.com/online-courses/ef65ae65-378a-4aef-b8ae-1a11c699667c"
+                    },
+                    "updateCoursePin": {
+                        "href": "https://developer.infuse.myabsorb.com/my-course-pins/ef65ae65-378a-4aef-b8ae-1a11c699667c"
+                    }
+                },
+                "id": "ef65ae65-378a-4aef-b8ae-1a11c699667c",
+                "courseType": "OnlineCourse",
+                "name": "LMS365",
+                "description": "Introduction to LMS365",
+                "accessDate": null,
+                "isPinned": false,
+                "enrolled": true,
+                "enrolledDate": "2021-01-28T16:41:59.45",
+                "enrollmentStatus": "InProgress",
+                "progress": 0.00,
+                "imageUrl": null,
+                "price": null,
+                "currencyAbbreviation": null,
+                "categoryId": null,
+                "creationDate": "2021-01-28T16:41:07.313",
+                "tags": [],
+                "dueDate": null,
+                "expiryDate": null,
+                "curriculumEnrollmentExpiryDate": null,
+                "isPartOfCurriculumEnrollment": false,
+                "isMandatory": false,
+                "certificateExpiryDate": null,
+                "isCourseRatingEnabled": false,
+                "rating": null,
+                "totalRatings": null,
+                "myRating": null,
+                "recentActivityDate": "2021-03-04T19:34:58.0033333",
+                "partnerType": null,
+                "consentToDownload": false,
+                "enableForMobileApp": false,
+                "discriminator": "CatalogOnlineCourseResource"
+            }
+        ]
+    }
+}
